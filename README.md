@@ -1,1 +1,2 @@
-# C2HW02
+* to compile and run in linux
+`g++ c.cpp -o c; ./c`
