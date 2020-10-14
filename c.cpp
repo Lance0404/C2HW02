@@ -9,12 +9,11 @@ int answer2; // Set this number to 1 if correctly input; otherwise set this numb
 int main() {
     int number1, number2, number3;
     int strik_cnt, spell_cnt;
-
-    strik_cnt = spell_cnt = 0;
     string desc;
-
-
+    
+    strik_cnt = spell_cnt = 0;
     answer2 = 1;
+    
     cout << "first throw: ";
     cin >> number1;
 
@@ -78,4 +77,5 @@ int main() {
         desc = "(a strik)";
     }
     cout << "the score is " << answer1 << " " << desc << ".";
+    return 0;
 }
