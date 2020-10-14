@@ -21,25 +21,25 @@ int main() {
   cout << "input y: ";
   cin >> y;
 
-  if ((x > 0) && (y > 0)){
+  if (x > 0 && y > 0){
     dynamicDesc = "is in quadrant I";
     answer1 = 1;
-  } else if ((x < 0) && (y > 0)){
+  } else if (x < 0 && y > 0){
     dynamicDesc = "is in quadrant II";
     answer1 = 2;
-  } else if ((x < 0) && (y < 0)){
+  } else if (x < 0 && y < 0){
     dynamicDesc = "is in quadrant III";
     answer1 = 3;
-  } else if ((x < 0) && (y > 0)){
+  } else if (x < 0 && y > 0){
     dynamicDesc = "is in quadrant IV";
     answer1 = 4;
-  } else if ((x != 0) && (y == 0)){
+  } else if (x != 0 && y == 0){
     dynamicDesc = "is on the x-axis";
     answer1 = 5;
-  } else if ((x == 0) && (y != 0)){
+  } else if (x == 0 && y != 0){
     dynamicDesc = "is on the y-axis";
     answer1 = 6;
-  } else if ((x == 0) && (y == 0)){
+  } else if (x == 0 && y == 0){
     dynamicDesc = "is the origin";
     answer1 = 7;
   }
